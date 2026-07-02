@@ -6,7 +6,7 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 
 export default defineConfig({
   plugins: [tailwindcss(), react(), flowbiteReact()],
-
+ base: "/Quiz_React/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
